@@ -1,0 +1,24 @@
+{
+  "adb_exe": "adb",
+  "adb_server_port": 5037,
+  "adb_serial": "127.0.0.1:7555",
+  "capture_path": "/tmp/anomaly_frame.png",
+  "threshold": 0.86,
+  "poll_seconds": 0.5,
+  "tap_targets": {
+    "open_overview": {"x": 1830, "y": 540},
+    "select_anomaly": {"x": 1565, "y": 278},
+    "warp": {"x": 1460, "y": 360},
+    "lock_all": {"x": 1668, "y": 969},
+    "select_npc": {"x": 1628, "y": 320},
+    "focus_fire": {"x": 1285, "y": 985}
+  },
+  "templates": {
+    "overview_open": "templates/overview_open.png",
+    "warp_menu_open": "templates/warp_menu_open.png",
+    "arrival_ack": "templates/arrival_ack.png",
+    "target_all_visible": "templates/target_all_visible.png",
+    "lockable_targets_present": "templates/lockable_targets_present.png",
+    "npcs_in_overview_present": "templates/npcs_in_overview_present.png"
+  }
+}

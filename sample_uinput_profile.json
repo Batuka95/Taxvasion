@@ -1,0 +1,11 @@
+{
+  "move_north": ["uinputctl", "key", "KEY_W"],
+  "move_south": ["uinputctl", "key", "KEY_S"],
+  "move_east": ["uinputctl", "key", "KEY_D"],
+  "move_west": ["uinputctl", "key", "KEY_A"],
+  "interact": ["uinputctl", "key", "KEY_F"],
+  "say": "uinputctl text {message}",
+  "text": "uinputctl text {text}",
+  "tap": ["uinputctl", "tap", "{x}", "{y}"],
+  "swipe": ["uinputctl", "swipe", "{x1}", "{y1}", "{x2}", "{y2}", "{duration_ms}"]
+}
