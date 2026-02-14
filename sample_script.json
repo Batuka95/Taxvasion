@@ -1,0 +1,7 @@
+[
+  {"cmd": "move", "direction": "north", "steps": 3},
+  {"cmd": "move", "direction": "east", "steps": 2},
+  {"cmd": "interact", "target": "npc_vendor"},
+  {"cmd": "wait", "ticks": 5},
+  {"cmd": "say", "message": "hello world"}
+]

@@ -1,0 +1,6 @@
+{"obs":{"zone":"town","nearby":1,"health":92},"action":{"cmd":"move","direction":"north","steps":1}}
+{"obs":{"zone":"town","nearby":1,"health":88},"action":{"cmd":"interact","target":"npc_vendor"}}
+{"obs":{"zone":"town","nearby":2,"health":91},"action":{"cmd":"move","direction":"east","steps":1}}
+{"obs":{"zone":"field","nearby":6,"health":54},"action":{"cmd":"move","direction":"west","steps":2}}
+{"obs":{"zone":"field","nearby":7,"health":57},"action":{"cmd":"move","direction":"west","steps":1}}
+{"obs":{"zone":"field","nearby":7,"health":22},"action":{"cmd":"say","message":"need_help"}}
